@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WishFilterComponent } from './wish-filter.component';
+import { SecondComponent } from './second.component';
 
-describe('WishFilterComponent', () => {
-  let component: WishFilterComponent;
-  let fixture: ComponentFixture<WishFilterComponent>;
+describe('SecondComponent', () => {
+  let component: SecondComponent;
+  let fixture: ComponentFixture<SecondComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WishFilterComponent ]
+      declarations: [ SecondComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WishFilterComponent);
+    fixture = TestBed.createComponent(SecondComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
